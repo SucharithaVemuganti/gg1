@@ -1,9 +1,10 @@
 import React from 'react';
 import "./index.css";
+import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
-import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
+
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faSearch, faHeart, faUser, faList } from '@fortawesome/free-solid-svg-icons';
 import { faHeart as farHeart } from '@fortawesome/free-regular-svg-icons';
@@ -17,10 +18,15 @@ const Navbar = () => {
       
       <h3 className="title">BookUsNow</h3>
       <div className="mobile">
-      <FontAwesomeIcon icon={faSearch} style={{ marginRight: '60px', backgroundColor: 'red' }}  id= "searchIcon"/>
-        <i className="fas fa-search" id="searchIcon" style={{ marginRight: '60px' }}></i>
-        <i className="far fa-heart" id="heart" style={{ marginLeft: '230px' }}></i>
-        <i className="fas fa-user" id="user" style={{ marginLeft: '-80px', marginTop: '50px' }}></i>
+      <span className='location'> 
+      <FontAwesomeIcon icon={faMapMarkerAlt} style={{marginTop :'45px',marginLeft :'20px' }}/><p>Mumbai,India</p></span>
+      <FontAwesomeIcon icon={faSearch} id="searchIcon" style={{marginTop :"-18px" ,  marginRight:"70px"} }/>
+      <FontAwesomeIcon icon={faHeart} style={{marginLeft :'170px', marginTop:"23px" ,color:"#989090"}} />
+      <FontAwesomeIcon icon={faUser} style={{ marginLeft: '15px' ,marginTop :"23px" , color :"#989090"
+      
+      }} />
+       
+       
       </div>
       
 
@@ -30,7 +36,7 @@ const Navbar = () => {
      
       <div id="search">
         <input type="text" placeholder="Search" id="searchInput" />
-        <FontAwesomeIcon icon={faSearch} id="searchIcon"/>
+        <FontAwesomeIcon icon={faSearch} id="searchIcon" />
       </div>
 
       <div className="favo">

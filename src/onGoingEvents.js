@@ -28,7 +28,7 @@ const OnGoingEvents = () => {
         <div className="loc">
        
                     
-          <span className='location'> <FontAwesomeIcon icon={faMapMarkerAlt}/>Mumbai,India</span>
+          <span className='location'> <FontAwesomeIcon icon={faMapMarkerAlt} />Mumbai,India</span>
           <h6 id="one1">Live Shows</h6>
           <h6 id="one">Liveshows</h6>
           <h6 id="one">Streams</h6>

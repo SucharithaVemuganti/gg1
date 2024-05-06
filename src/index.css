@@ -20,7 +20,7 @@
 {
     width: 100%;
     margin-left: 0.8%;
-    margin-top: 10px;
+    margin-top: 2%;
     height: 50px;
    
     
@@ -44,10 +44,10 @@
 
 .location {
        
-    margin-left : 60px;
+   
     font-weight: 500;
     color: #989090;
-  
+    margin-left: 0;
     margin-top: 0px;
     
 }
@@ -81,7 +81,7 @@
     display: block;
     border: 2px solid black;
     padding: 15px;
-    margin-left: -160px;
+    margin-left: -200px;
     margin-top: 40px;
     align-items: center;
     height: 45px;
@@ -226,6 +226,7 @@ input{
 
 .location{
     margin-left: 69px;
+    
 }
 .fa-location-dot {
     margin-right: 5px; /* Add space to the right of the location symbol */
@@ -375,7 +376,8 @@ input{
     margin-top: 0px;
     line-height: 110px;
     min-width: 205px;
-    margin: 20px;
+    margin: 10px;
+    margin-top: 20px;
     border-radius: 5px;
     background-color: pink;
     
@@ -384,20 +386,20 @@ input{
     
 }
 
-.events .event1 .text{
+.events .image-container .details .text{
       
     display: flex; 
     flex-direction: row;
     flex-wrap: wrap;
     
-    font-size: 13px;
+    font-size: 10px;
     justify-content: space-between;
     background-color: red;
 }   
 
 
 
-.events .event1 .details
+.events .image-container .details
 {
     
     display: flex;
@@ -417,6 +419,7 @@ input{
     align-items: flex-end;
     margin-bottom: -0px;
     margin-top: 180px;
+    padding-right: 10px;
     
     
 }
@@ -426,7 +429,7 @@ input{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    font-size: 10px;
+    font-size: 9px;
     margin-left: -100px;
     
 }
@@ -435,16 +438,16 @@ input{
 .events .event1 .details #date
 {
     
-    margin-left: 55px;
+    margin-left: -2px;
     margin-bottom: -94px;
-    font-size: 10px;
+    font-size: 9px;
     color: #989090;
 }
 
 .events .event1 .details #text1
 {
-    
-    margin-left: 1px;
+  
+    margin-left: 10px;
     font-size: 11px;
     align-self: self-start;
      
@@ -455,8 +458,9 @@ input{
 .events .event1 .details #loc
 {
     
-    margin-right: 50px;
+    margin-left: 10px;
     margin-top: -93px;
+    
     font-size: 10px;
     align-self: self-start; /*important */
     margin-left: 5px;
@@ -467,7 +471,7 @@ input{
 }
 .events .event1 .details #dist
 {
-    margin-left: -5px;
+    margin-left: -1px;
     font-weight: 500;
     font-size: smaller;
     
@@ -475,7 +479,7 @@ input{
 }
 .events .event1 .details #weat
 {
-    margin-right: 5px;
+    margin-right: 7px;
    
     
     font-size: smaller;
@@ -486,7 +490,7 @@ input{
 {
     
        display: flex;
-       margin-right: -0px;
+       margin-right: 2px;
        flex-direction: row;
        margin-bottom: -25px;
        align-items: flex-end;
@@ -688,14 +692,18 @@ font-size: medium;
 
 .location {
     font-family: Calibri, sans-serif; /* Use Calibri font for the location text */
-    margin-left: 10px;
+    
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    margin-left: -300px;
     font-weight: lighter;
+   
     
     
 }
+
+
 
 
 .fa-location-dot {
@@ -717,9 +725,13 @@ font-size: medium;
 {
     display: flex;
     flex-direction: row;
-   
+  
     margin-left: 50px;
 }
+
+ .location .loc span{
+    visibility: collapse;
+ }
 
 .fa-solid fa-user  #user
 {
@@ -891,7 +903,7 @@ input{
 
     .location {
         font-family: Calibri, sans-serif;
-        margin-left: 10px;
+        margin-left: -170px;
         font-weight: lighter;
       }
 
@@ -903,6 +915,12 @@ input{
     font-family: Calibri, sans-serif;
     
 }
+
+.mobile .location p{
+    margin-top: 45px;
+    
+    font-size: 10px;
+};
 
 .loc{
     
@@ -930,8 +948,9 @@ input{
 }
 .loc h6{
 
-   
+    margin-left: -20px;
     margin-right: 35px;
+    margin-top: -20px;
     display: flex;
     justify-content: space-evenly;
     
@@ -958,7 +977,10 @@ input{
 .i1
 {
     background-image: url("Banner.svg");
-    margin:10px;
+    margin-top:-30px;
+    margin-left: 5px;
+    margin-right: -15px;
+
     background-size: contain;
     
     width: 100%;
@@ -1081,57 +1103,88 @@ input{
     
 }
 
-
 .events .event1 .details
 {
     
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-end;
     flex-wrap: wrap;
-    margin-bottom: -20px;
+
+
+    margin-bottom: -15px;
     width: 100%;  /* Full width within event1 */
 }
-.events .event1 .details p {
-    margin: 0;  /* Remove default margin */
+.events .event1 .left-content
+{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: -0px;
+    margin-top: 180px;
+    
+    
 }
+
+.events .event1 .right-content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 10px;
+    margin-left: -100px;
+    
+}
+
 
 .events .event1 .details #date
 {
-    margin-left: 15px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: smaller;
+    
+    margin-left: 55px;
+    margin-bottom: -94px;
+    font-size: 10px;
     color: #989090;
 }
-.events .event1 .details #text
+
+.events .event1 .details #text1
 {
+    
     margin-left: 1px;
-    font-size: medium;
-    color: #ffffffd2;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 540;
+    font-size: 11px;
+    align-self: self-start;
+     
+    color: #989090;
+
+   
 }
 .events .event1 .details #loc
 {
-    margin-left: -15px;
-    margin-right: 10px;
-    font-size: smaller;
-    color: #ffffffd2;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    margin-right: 50px;
+    margin-top: -93px;
+    font-size: 10px;
+    align-self: self-start; /*important */
+    margin-left: 5px;
+    align-items: start;
+    color: #989090;
+     
     font-weight: 540;
 }
 .events .event1 .details #dist
 {
-    margin-left: 1px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: -5px;
+    font-weight: 500;
     font-size: smaller;
+    
     color: #989090;
 }
 .events .event1 .details #weat
 {
-    margin-left: 5px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 5px;
+   
+    
     font-size: smaller;
     color: #989090;
 }
@@ -1140,16 +1193,13 @@ input{
 {
     
        display: flex;
-       margin-right: -20px;
+       margin-right: -0px;
        flex-direction: row;
+       margin-bottom: -25px;
        align-items: flex-end;
        justify-content: flex-end;
        
 }
-
-
-
-
 .upcomingheading
 {
     margin-left: 80px;
@@ -1168,7 +1218,8 @@ input{
    margin-bottom: -36px;
    display: flex;
    justify-content: space-between;
-   margin-left: 68px;
+   margin-left: 28px;
+   color: #1E2022;
   
 }
 #upcoming_event_heading #see-all 
@@ -1178,9 +1229,10 @@ input{
 }
 
 #upcoming_event_heading p{
-    margin-top: 0px;
+    margin-top: 10px;
+
     margin-left: 0px;
-    
+
 }
 .upcoming
 {
@@ -1194,12 +1246,13 @@ input{
 }
 
 .event{
-    width: 285px;
-    height: 250px;
+    width: 245px;
+    height: 210px;
     border: 0.3px solid rgb(228, 220, 220);
-    margin: 10px 20px 10px 20px;
+    margin: 10px 10px 10px -15px;
     border-radius: 8px;
-  
+
+   
 
 }
 .event .sub-event
@@ -1211,11 +1264,12 @@ input{
     justify-content: center;
     align-items: flex-end;
     width: 100%;
-    height: 180px;
+    height: 140px;
+    color: #1E2022;
     padding: auto;
     border: 0px solid rgb(231, 228, 223);
     border-radius: 8px;
-    background-image: url(Rectangle\ 7.svg);
+    
     background-size: cover;
    
 }
@@ -1228,6 +1282,7 @@ input{
     font-family:  Calibri, 'Trebuchet MS', sans-serif;
     color: #d4cccc;
     background-color: rgba(20, 6, 6, 0.829);
+    
 
 
    
@@ -1235,8 +1290,9 @@ input{
 }
 .sub-event p{
     padding: 15px;
-    
+    font-size: 12px;
     text-align: start;
+    
 }
 
 body{
@@ -1245,7 +1301,7 @@ body{
 
 .event .item
 {
-    margin-top: 10px;
+    margin-top: 6px;
     margin-bottom: 0;
     display: flex;
     justify-content: space-between;
@@ -1270,16 +1326,21 @@ body{
    
     font-size: 12px;
     font-weight: 500;
+
 }
 .event .text
 {
 
 margin-top: 10px;
-font-size: 18px;
-font-weight: lighter;
- 
+font-size: 13px;
+font-family: sans-serif;
+font-weight: normal;
 
 color: #1E2022;
+}
+
+.first #search {
+    visibility: hidden;
 }
 
 .upcomingheading
@@ -1289,6 +1350,7 @@ color: #1E2022;
     font-size: 15px;
     font-style: bold;
     margin-top: 250px;
+   
   
     font-weight: 650;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -1298,6 +1360,8 @@ color: #1E2022;
     visibility: visible;
 }
     
+
+
 
 
     }
