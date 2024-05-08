@@ -1,5 +1,5 @@
 import React from 'react';
-import "./index.css";
+import "../index.css";
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 
 import '@fortawesome/fontawesome-svg-core/styles.css';

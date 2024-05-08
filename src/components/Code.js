@@ -1,5 +1,5 @@
 import React from 'react';
-import "./index.css";
+import "../index.css";
 import Navbar from './Navbar';
 import OnGoingEvents from './onGoingEvents'; // Corrected case
 import  {UpcomingEvents} from './UpcomingEvents'; // Corrected case

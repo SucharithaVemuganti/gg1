@@ -18,7 +18,7 @@ const Event1 = ({ eventData }) => {
   const truncatedDistanceKm = Math.round(distanceKm * 100) / 100;
   return (
     <div className="event1">
-    <div className="image-container" style={{ height: "290px", width: "205px" ,backgroundImage: `url(${imgUrl})`, backgroundSize: "cover", backgroundPosition: "center",padding:"0" }}>
+    <div className="image-container" style={{ height: "305px", width: "230px" ,backgroundImage: `url(${imgUrl})`, backgroundSize: "cover", backgroundPosition: "center",padding:"0" }}>
       <div className="details">
         <div className="left-content">
           <p id="text1">{eventName}</p>

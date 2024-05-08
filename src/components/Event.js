@@ -17,12 +17,9 @@ const Event = ({ eventData }) => {
 
   return (
     <div className="event">
-        <img
-          src={imgUrl}
-          alt={eventData.eventName}
-          onError={(error) => { console.warn('Failed to load image:', error); }}
-        />
-      <div className="sub-event">
+          
+
+      <div className="sub-event" style = {{backgroundImage : `url(${imgUrl})`}}>
         <div id="date1">
           <p>{new Date(eventData.date).toDateString()}</p>
         </div>
@@ -39,6 +36,7 @@ const Event = ({ eventData }) => {
           <p id="type">{eventData.weather} | </p>
           <p id="temp">{truncateDistance(eventData.distanceKm)} km</p>
         </div>
+      
       </div>
     </div>
   );

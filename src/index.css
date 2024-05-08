@@ -38,7 +38,6 @@
     margin-left: 100px; /*60px edited */
     font-size: 30px;
     font-weight: 800;
-    
     margin-right: 50px;
 }
 
@@ -229,7 +228,7 @@ input{
     
 }
 .fa-location-dot {
-    margin-right: 5px; /* Add space to the right of the location symbol */
+    margin-right: 5px; 
 }
 .title , .location ,.category
 {
@@ -270,7 +269,6 @@ input{
     width: 100%;
     height: 500px;
     background-color: antiquewhite;
-    
     color: white;
 }
 
@@ -290,7 +288,6 @@ input{
     width: 75%;
     margin-left: 12.5%; 
     color: whitesmoke;
-   
     font-size: 46px;
     align-items: center;
     justify-content: center;
@@ -305,7 +302,6 @@ input{
     margin-top: 15px;
     padding-left: 20px;
     color:whitesmoke;
-   
     font-size: 46px;
     align-items: center;
     justify-content: center;
@@ -349,7 +345,6 @@ input{
 {
     text-decoration: underline;
     margin-right: 20px;
-    
 }
 
 .events
@@ -362,37 +357,29 @@ input{
     justify-content: space-evenly;
     margin-top: -50px; /* edited*/
     
-   
-    
-    
 }
 .events::-webkit-scrollbar{
     width: 0;
 }
 .events .event1
 {
-    
     height: 290px;
-    margin-top: 0px;
+    margin-top: -2px;
     line-height: 110px;
     min-width: 205px;
     margin: 10px;
     margin-top: 20px;
     border-radius: 5px;
-    background-color: pink;
-    
-    background-image: url("Rectangle\ 2.svg");
     background-size: cover;
+   
     
 }
-
 .events .image-container .details .text{
       
     display: flex; 
     flex-direction: row;
     flex-wrap: wrap;
-    
-    font-size: 10px;
+    font-size: 9px;
     justify-content: space-between;
     background-color: red;
 }   
@@ -418,6 +405,7 @@ input{
     flex-direction: column;
     align-items: flex-end;
     margin-bottom: -0px;
+    font-size: 9px;
     margin-top: 180px;
     padding-right: 10px;
     
@@ -447,8 +435,8 @@ input{
 .events .event1 .details #text1
 {
   
-    margin-left: 10px;
-    font-size: 11px;
+    margin-left: 14px;
+    font-size: 10px;
     align-self: self-start;
      
     color: #989090;
@@ -458,12 +446,12 @@ input{
 .events .event1 .details #loc
 {
     
-    margin-left: 10px;
+    
     margin-top: -93px;
     
     font-size: 10px;
     align-self: self-start; /*important */
-    margin-left: 5px;
+    margin-left: 14px;
     align-items: start;
     color: #989090;
      
@@ -471,7 +459,8 @@ input{
 }
 .events .event1 .details #dist
 {
-    margin-left: -1px;
+    margin-left: -3px;
+    margin-right: 6px;
     font-weight: 500;
     font-size: smaller;
     
@@ -490,7 +479,7 @@ input{
 {
     
        display: flex;
-       margin-right: 2px;
+       margin-right: 5px;
        flex-direction: row;
        margin-bottom: -25px;
        align-items: flex-end;
@@ -529,19 +518,20 @@ input{
 }
 #upcoming_event_heading p{
     margin-top: 10px;
-    margin-left: 80px;
+    
+    margin-left: 100px;
     
 }
 #upcoming_event_heading #see-all 
 {
-  margin-right: 160px;
+  margin-right: 320px;
   text-decoration: underline;
 }
 .event{
-    width: 270px;
+    width: 290px;
     height: 220px;
     border: 0.3px solid rgb(228, 220, 220);
-    margin: 10px 20px 10px 20px;
+    margin: 10px 20px 15px 40px;
     border-radius: 8px;
     padding: 8px;
   
@@ -567,7 +557,7 @@ input{
 
 #date1{
     
-    width: 100%;
+    width: 91%;
     height: 20px;
     display: flex;
     align-items: center;
@@ -580,7 +570,6 @@ input{
 }
 .sub-event p{
     padding: 15px;
-
     text-align: start;
     font-size: 20px;
 }
@@ -791,14 +780,14 @@ input{
 }
 #searchInput {
     visibility: hidden;
-    width: 80%; /* Takes up the full width of the container */
-    height: 100%; /* Takes up the full height of the container */
-    padding-right: 5px; /* Adds padding to the right to accommodate the icon */
-    box-sizing: border-box; /* Ensures padding doesn't affect width */
-    border-radius: 5px; /* Optional: round the corners */
-    border: 0.2px solid #ccc; /* Add border around input field */
-    font-size: 10px; /* Adjust font size as needed */
-    outline: none; /* Optional: removes outline when input field is focused */
+    width: 80%; 
+    height: 100%; 
+    padding-right: 5px; 
+    box-sizing: border-box; 
+    border-radius: 5px; 
+    border: 0.2px solid #ccc;
+    font-size: 10px; 
+    outline: none; 
 }
 
 /* Styling for the search icon */
@@ -808,12 +797,12 @@ input{
     margin-top: 14px;
     justify-content: flex-start;
     margin-left: 10px;
-    position: absolute; /* Position the icon absolutely within the container */
-    top: 10%; /* Vertically center the icon */
-    right: 10px; /* Position the icon 10px from the right edge */
-    transform: translateY(-50%); /* Adjusts vertical alignment */
-    cursor: pointer; /* Optional: adds a pointer cursor on hover */
-    color: #888; /* Change icon color as desired */
+    position: absolute;
+    top: 10%;
+    right: 10px; 
+    transform: translateY(-50%); 
+    cursor: pointer; 
+    color: #888;
 }
 .search #searchicon{
     visibility: hidden;
@@ -870,7 +859,6 @@ input{
     border: 2px solid black;
     font-size: 15px;
     color: rgb(141, 127, 127);
-
     border-radius: 5px;
     border-color: aliceblue;
     padding: 10px;
@@ -895,20 +883,14 @@ input{
     flex-wrap: nowrap;
 }
 
-    /*margin-top: -25px;
-    
-    
-   
-    margin-left: 10px;*/
-
-    .location {
+.location {
         font-family: Calibri, sans-serif;
         margin-left: -170px;
         font-weight: lighter;
       }
 
 .fa-location-dot {
-    margin-right: 5px; /* Add space to the right of the location symbol */
+    margin-right: 5px;
 }
 .title , .location ,.category
 {
@@ -925,8 +907,7 @@ input{
 .loc{
     
     display: flex;
-  
-   margin-left: -180px;
+    margin-left: -180px;
     flex-direction: row;
     overflow-x: auto;
 
@@ -965,9 +946,6 @@ input{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(141, 127, 127);
     
-    
-    
-   
 }
 .loc #one1
 {
@@ -980,9 +958,7 @@ input{
     margin-top:-30px;
     margin-left: 5px;
     margin-right: -15px;
-
     background-size: contain;
-    
     width: 100%;
     height: 550px;
     background-color: antiquewhite;
@@ -990,9 +966,7 @@ input{
 }
 
 .text-overlay h3 {
-     
-    
-    line-height: 40px;
+     line-height: 40px;
     margin-top: 20px;
     color: white;
     font-size: 26px;
@@ -1004,14 +978,11 @@ input{
 }
 .text-overlay #nextline {
      
-    
-    
     margin-top: 5px;
     margin-bottom: 20px;
     color: white;
     font-size: 26px;
     align-items: center;
-   
     font-family: sans-serif;
     font-weight: 510;
     text-align: center;
@@ -1040,7 +1011,6 @@ input{
  .see{
      display: flex;
      flex-direction: row;
-     
      justify-content: space-between;
  }
  .see h5{
@@ -1055,25 +1025,22 @@ input{
      font-size: 10px;
      color: #989090;
      
-     
- }
+}
  
 
  .events
 {
     
    
-    width: 100%;margin-top: -30px;
+    width: 120%;margin-top: -30px;
     margin-right: 30px;
-    margin-left: 45px;
+    margin-left: 35px;
     max-height: 300px;
     display: flex;
-   
+    margin-top: -15px;
     flex-direction: row;
     overflow-x: auto;
     justify-content: space-evenly;
-    
-    
     
 }
 
@@ -1084,20 +1051,17 @@ input{
 .events .event1
 {
    
-    max-width: 50px;
-    height: 270px;
+    
+    height: 260px;
+    background-color: red;
     position: -webkit-sticky;
-    margin-top: -100px;
+    margin-top: 35px;
     line-height: 110px;
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    margin: 10px;
-    border-radius: 5px;
-    background-color: pink;
-    background-image: url("Rectangle\ 2.svg");
-    
-    background-size: cover;
+    border-radius: 40px;
+    background-size:cover;
     
   
     
@@ -1111,9 +1075,7 @@ input{
     justify-content: space-between;
     align-items: flex-end;
     flex-wrap: wrap;
-
-
-    margin-bottom: -15px;
+    margin-bottom: -10px;
     width: 100%;  /* Full width within event1 */
 }
 .events .event1 .left-content
@@ -1122,8 +1084,9 @@ input{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    margin-bottom: -0px;
-    margin-top: 180px;
+    margin-bottom: 0px;
+    margin-top: 200px;
+    margin-left: 5px;
     
     
 }
@@ -1135,6 +1098,8 @@ input{
     justify-content: flex-end;
     font-size: 10px;
     margin-left: -100px;
+    margin-right: 10px;
+    margin-bottom: -0px;
     
 }
 
@@ -1144,7 +1109,7 @@ input{
     
     margin-left: 55px;
     margin-bottom: -94px;
-    font-size: 10px;
+    font-size: 9px;
     color: #989090;
 }
 
@@ -1152,9 +1117,8 @@ input{
 {
     
     margin-left: 1px;
-    font-size: 11px;
+    font-size: 9px;
     align-self: self-start;
-     
     color: #989090;
 
    
@@ -1164,12 +1128,11 @@ input{
     
     margin-right: 50px;
     margin-top: -93px;
-    font-size: 10px;
+    font-size: 9px;
     align-self: self-start; /*important */
     margin-left: 5px;
     align-items: start;
     color: #989090;
-     
     font-weight: 540;
 }
 .events .event1 .details #dist
@@ -1177,14 +1140,11 @@ input{
     margin-left: -5px;
     font-weight: 500;
     font-size: smaller;
-    
     color: #989090;
 }
 .events .event1 .details #weat
 {
     margin-right: 5px;
-   
-    
     font-size: smaller;
     color: #989090;
 }
@@ -1230,13 +1190,11 @@ input{
 
 #upcoming_event_heading p{
     margin-top: 10px;
-
     margin-left: 0px;
 
 }
 .upcoming
 {
-   
     width: 100%;
     min-width: 300px;
     margin: 50px;
@@ -1251,9 +1209,6 @@ input{
     border: 0.3px solid rgb(228, 220, 220);
     margin: 10px 10px 10px -15px;
     border-radius: 8px;
-
-   
-
 }
 .event .sub-event
 {
@@ -1263,7 +1218,8 @@ input{
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    width: 100%;
+    width: 102%;
+    width: 230px;
     height: 140px;
     color: #1E2022;
     padding: auto;
@@ -1275,24 +1231,18 @@ input{
 }
  #date1{
     
-    width: 100%;
+    width: 90%;
     height: 26px;
     display: flex;
     align-items: center;
     font-family:  Calibri, 'Trebuchet MS', sans-serif;
     color: #d4cccc;
     background-color: rgba(20, 6, 6, 0.829);
-    
-
-
-   
-    
 }
 .sub-event p{
     padding: 15px;
     font-size: 12px;
     text-align: start;
-    
 }
 
 body{
@@ -1306,7 +1256,6 @@ body{
     display: flex;
     justify-content: space-between;
     font-size: 10px;
-    
     color: #989090;
 }
 .event .item #weather
@@ -1316,11 +1265,11 @@ body{
 }
 .event .item #weather #type
 {
-    padding-right:  2px ;
+    padding-right: 2px ;
 }
 .event .item #weather #temp
 {
-    padding-left:  2px ;
+    padding-left: 2px ;
 }
 .event h6{
    
@@ -1335,7 +1284,6 @@ margin-top: 10px;
 font-size: 13px;
 font-family: sans-serif;
 font-weight: normal;
-
 color: #1E2022;
 }
 
@@ -1350,8 +1298,6 @@ color: #1E2022;
     font-size: 15px;
     font-style: bold;
     margin-top: 250px;
-   
-  
     font-weight: 650;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

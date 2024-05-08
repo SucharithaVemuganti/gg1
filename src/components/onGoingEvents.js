@@ -4,7 +4,7 @@ import Event1 from './Event1';
 import axios from 'axios';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
-import "./index.css";
+import "../index.css";
 
 const OnGoingEvents = () => {
   const [events, setEvents] = useState([]);
@@ -64,55 +64,3 @@ const OnGoingEvents = () => {
 }
 
 export default OnGoingEvents;
-
-
-/*import React from 'react';
-import Event1 from './Event1';
-import "./index.css";
-
-const OnGoingEvents = () => {
-  return (
-    <div>
-        
-      <div className="second">
-        <div className="loc">
-          <h6 className="location"><i className="fas fa-location-dot"></i> Mumbai, India</h6>
-          <h6 id="one1">Live Shows</h6>
-          <h6 id="one">Liveshows</h6>
-          <h6 id="one">Streams</h6>
-          <h6 id="one">Movies</h6>
-          <h6 id="one">Plays</h6>
-          <h6 id="one">Events</h6>
-          <h6 id="one">Sports</h6>
-          <h6 id="one">Activities</h6>
-        </div>
-      </div>
-
-      <div className="i1">
-        <div className="text-overlay">
-          <h3>Discover Exciting Events Happening</h3>
-          <h3 id="nextline">Near You - Stay Tuned for Updates</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil minus nostrum impedit repudiandae
-            minima quibusdam aut atque rem incidunt accusantium tempore laboriosam sint</p>
-        </div>
-        <div className="see">
-          <h5>Recommended shows</h5>
-          <h5 id="see">See All</h5>
-        </div>
-      </div>
-<div className="events">    
-<Event1 />
-<Event1 />
-<Event1 />
-<Event1 />
-<Event1 />
-<Event1 />
-<Event1 />
-<Event1 />
-</div>
-
-    </div>
-  )
-}
-
-export  default OnGoingEvents; */
